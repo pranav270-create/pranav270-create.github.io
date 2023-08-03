@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: none
 title: Style Guide
 permalink: /styleguide/
 image: '/images/50.jpg'
