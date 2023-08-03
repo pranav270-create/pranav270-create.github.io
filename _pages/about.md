@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/me.jpg'
+image: '/images/06.jpg'
 ---
 
 Hi, my name is Pranav Iyer.
