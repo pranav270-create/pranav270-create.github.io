@@ -2,7 +2,7 @@
 # General Site Settings
 title: Pranav's Homepage
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Norlin – A Beautiful Dark Blog Theme for Jekyll.
+description:
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://pranav270-create.github.io" # The base hostname & protocol for your site, e.g. http://example.com
 
@@ -18,7 +18,7 @@ author:
 # Hero Settings
 hero:
   title: Pranav Iyer
-  description: Thoughts, stories and ideas.
+  description: Thoughts, stories and projects.
   image: '/images/01.jpg'
 
 
