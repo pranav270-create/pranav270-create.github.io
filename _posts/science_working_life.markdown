@@ -5,6 +5,7 @@ description: Some thoughts on architecture and diversity in Science
 date:   2016-08-3 15:01:35 +0300
 image:  '/images/20.jpg'
 tags:   [science, diversity, thoughts]
+featured: true
 ---
 
 Summer Dip into Research
