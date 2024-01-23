@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+site_title: About Me
 permalink: /about/
 image: '/images/06.jpg'
 ---

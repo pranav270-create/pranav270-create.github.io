@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Why I Began Writing…(Publicly)
+title: Writing
+site_title: Why I Began Writing…(Publicly)
 permalink: /writing/
 image: '/images/16.jpg'
 ---
