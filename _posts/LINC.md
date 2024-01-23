@@ -9,3 +9,5 @@ featured: true
 ---
 
 Hello here is some information about the LINC Project
+
+<hr>
