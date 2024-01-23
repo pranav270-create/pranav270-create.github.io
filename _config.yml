@@ -79,6 +79,7 @@ defaults:
 
 include:
   - _pages
+  - _posts
 
 # Tags
 tag_page_dir:         tag
