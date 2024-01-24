@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  In the Limit
-description: Discusses what may happen in the limit of the universe and of humanity
+description: What happens in the limit of the universe and the limit of humanity?
 date:   2024-01-24 15:01:35 +0300
-image:  '/images/whitedot_small.jpeg'
+image:  '/images/whitedot.jpeg'
 tags:   [physics, philosophy]
 ---
 

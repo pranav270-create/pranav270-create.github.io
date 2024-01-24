@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Why Everyone (i) Makes a Website
-description: On why I made a website in the first place and how I began writing
+description: Why I made a website and how I began writing
 date:   2024-01-22 15:01:35 +0300
 image:  '/images/16.jpg'
 tags:   [reflection, 4th wall]
-featured: true
 ---
 
 *Foreword: this used to be called “Why I Began Writing…(Publicly)”. Then I got frustrated in the process of making the website and felt that the current title was more apt.*
