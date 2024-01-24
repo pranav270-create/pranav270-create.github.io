@@ -16,4 +16,42 @@ After graduation, I worked with DARPA, researching the nexus of AI and control t
 
 Today, I am focused on building the next-generation of energy infrastructure to support a scalable human civilization. In my lifetime, I am interested in creating robust synthetic intelligence.
 
+## Experience
+
+### Your Job Title
+**Company Name** - Location  
+Month, Year - Present  
+Job description goes here. This can include your responsibilities and achievements during your time in this role.
+
+### Your Previous Job Title
+**Previous Company Name** - Location  
+Month, Year - Month, Year  
+Job description goes here. This can include your responsibilities and achievements during your time in this role.
+
+## Education
+
+### Degree, Major
+**University Name** - Location  
+Month, Year - Month, Year  
+Description or details about your course of study.
+
+## Skills
+
+- Skill 1
+- Skill 2
+- Skill 3
+
+## Projects
+
+### Project Name
+Description of the project. This can include what you did, the technologies used, and the outcome.
+
+### Another Project Name
+Description of the project. This can include what you did, the technologies used, and the outcome.
+
+## Certifications
+
+- Certification Name, Issuing Authority, Date
+- Another Certification Name, Issuing Authority, Date
+
 <hr>
