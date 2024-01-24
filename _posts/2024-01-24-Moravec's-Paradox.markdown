@@ -14,6 +14,8 @@ In the 1980s, Hans Moravec, Rodney Brooks, Marvin Minksy, and others coined the 
 > It is comparatively easy to make computers exhibit adult level performance on intelligence tests or playing checkers, and difficult or impossible to give them the skills of a one-year-old when it comes to perception and mobility
 >
 > <cite>Hans Moravec, 1980</cite>
+>
+> <span style="float: right;">&rdquo;</span>
 
 Indeed, computers first solved problems that humans could not quickly, such as multiplying large numbers or calculating exponentials. They did so by connecting simple units of computation into larger, more powerful, outcomes. This eventually led to symbolic solvers and linear and non-linear optimization methods that could tractably determine optimal outcomes for more complex problems like a supply chain. Recently-ish, we saw AlphaZero defeat a world champion in Chess and Go, leveraging neural networks and intelligent tree search. In 2023, GPT has shown that even the domain of language can be conquered with adequate data and adequate compute.
 
@@ -21,7 +23,6 @@ So where is the trend? As paraphrased for brevity by linguist Stephen Pinker, �
 
 This becomes more apparent when you convert problems to the unit of ‘CPU clock time’. Essentially used a proxy for the amount of compute resources required, it measures the time that a program or process takes to run from start to finish as measured by the computer (converting this to raw energy input may be the most fair metric across compute types but leaving that for another day). Now let us look at our list:
 
-{% highlight markdown %}
 * For calculating an exponential, pretty fast. 
 
 * For solving an optimization program, depending on the formulation, reasonably fast, with a need for parallelization.
@@ -29,18 +30,15 @@ This becomes more apparent when you convert problems to the unit of ‘CPU clock
 * For defeating a world champion, some distributed compute involving GPUs, pretty hefty.
 
 * For mastering language, over 1 trillion parameters in one of the largest distributed clusters ever built.
-{% endhighlight %}
 
 
 We could just stop there. But what is cooler is that we can backtrace these values to the ‘real clock time’ evolution took to develop such skills.
 
-{% highlight markdown %}
 * For learning language, the question is up for debate. Laryngeal descent theory argues that we did not have the anatomically requisite parts for modern speech until 200,000 years ago, thereby placing speech with the arrival of modern homo sapiens. A 2019 study in Science Advances calls this into question, arguing that monkeys 27 million years ago also possessed the requisite parts, but needless to say, the modern abstractions of language are a newer phenomenon.
 
 * For learning chess, the first historic estimate of the game places it around 6th century AD during the Gupta dynasty of India, known then as Chaturanga. Other historic evidence places a similar game in Ancient Egypt, with the point being that our ability to reason in such a format can be upper bounded by 5,000 years.
 
 * For learning exponentials and linear solvers, our human hardware has either not adopted that, manifested itself in rare bursts of genius like Srinivasa Ramanujan who could ‘see and hear numbers’, or been used in infrequent quantities. Still, say 500 years.
-{% endhighlight %}
 
 This is only half the picture. The other half is evolutionary pressure. When solving an optimization problem, one must take a starting guess, and then know in which direction to improve that guess. A common method for getting this direction is to use gradients, which tells you the maximal rate of increase, with respect to the objective, for each variable in your problem. However, it is easy to get stuck in a local minima. Hence, another method for getting the direction is to use simulated evolution, which essentially define mutation operators over a population of candidate solutions, and only retain the ones that are the highest performing (with some caveat for retaining a diverse set of solutions too). This approach is sample inefficient, but can illuminate more of the search space and hence potentially yield better solutions.
 
