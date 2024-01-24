@@ -3,7 +3,7 @@ layout: post
 title:  Moravec’s Paradox, Evolution, and Clock Time
 description: Why seemingly easy tasks for humans are difficult for robots
 date:   2024-01-24 15:01:35 +0300
-image:  '/images/moravec.jpeg'
+image:  '/images/moravec_canny.jpeg'
 tags:   [reinforcement learning]
 ---
 
