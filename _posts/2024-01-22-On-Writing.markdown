@@ -3,7 +3,7 @@ layout: post
 title: Why Everyone (i) Makes a Website
 description: On why I made a website in the first place and how I began writing
 date:   2024-01-22 15:01:35 +0300
-image:  '/images/whitedot.jpeg'
+image:  '/images/16.jpg'
 tags:   [reflection, 4th wall]
 featured: true
 ---
@@ -20,11 +20,15 @@ The second was my viewpoint on having an opinion. In high school I was an avid p
 
 It was only when I began widening my worldview that I realized two things: 
 
-	1. not having an opinion is a privilege
+{% highlight markdown %}
+1. not having an opinion is a privilege
+{% endhighlight %}
 
 While I still believe in the nuance of argument, I ultimately think highly intelligent individuals are able to weigh the conflicting factors and reach a conclusion with conviction. Not having an opinion is either the product of purposeful or accidental ignorance, a vestige of not needing to care about the issue due to the insular nature of some lives. Listening to Chamath Palihapitiya discuss Warren Buffet’s investing strategy on All-In, I heard some paraphrase of the words “bet hard but be ready to pivot fast”. The same applies with opinions under Bayes’ Rule: hold an opinion that is consistent with the current body of evidence, but update your belief in light of new evidence. Ultimately, I found writing to be a helpful medium for opinion formation by forcibly analyzing the evidence as it currently stands.
 
-	2. writing is a leveraged medium for creation
+{% highlight markdown %}
+2. writing is a leveraged medium for creation
+{% endhighlight %}
 
 A couple years ago, I was fortunate enough to rub shoulders with an unnamed investor who was building out his “Second Brain”. It was my first time hearing the concept, but it stuck, and I began organizing my thoughts in Notion and Obsidian. I had also just read Richard Sutton’s “The Bitter Lesson”, and I felt that the pillars of ‘search and learning’ should also apply to humans. I began writing as an opportunity for thought distillation, but found that organized writing was an opportunity for “search” across those thoughts.
 
