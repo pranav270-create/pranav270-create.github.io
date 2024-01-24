@@ -1,7 +1,6 @@
 #-------------------------------
 # General Site Settings
-title: Pranav's Homepage
-site_title: Pranav's Homepage
+title: 
 logo: # You can add own logo. For example '/images/logo.png'.
 description:
 baseurl: "" # The subpath of your site, e.g. /blog
@@ -18,7 +17,6 @@ author:
 # Hero Settings
 hero:
   title: Pranav Iyer
-  site_title: 
   description: Thoughts, stories and projects.
   image: '/images/501.jpg'
 
