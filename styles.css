@@ -119,9 +119,9 @@ p {
 
 
 .wormhole {
-width: 200px;
-height: 200px;
-background: radial-gradient(ellipse at center, rgb(176, 182, 237) 0%, black 70%);
+width: 100px;
+height: 100px;
+background: radial-gradient(ellipse at center, rgb(255, 255, 255) 0%, black 70%);
 border-radius: 50%;
 animation: spin 5s linear infinite, travel 5s linear infinite;
 }
