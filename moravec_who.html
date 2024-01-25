@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moravec's Paradox and Evolution</title>
 </head>
-<body>
+<page>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <h2>Moravec's Paradox and Evolution</h2>
-    <img src="/images/moravec_canny.jpeg" alt="Moravec's Paradox Image" width="800" height="200">
+    <img src="/images/moravec_canny.jpeg" alt="Moravec's Paradox Image" width="500" height="200">
 
     <p>As a roboticist, I often ponder the nature of automation. The common narrative in science fiction depicts dexterous and intelligent robots, first displacing labor workers until eventually surpassing human consciousness. Reality seems more dull, and occurs in reverse.</p>
 
@@ -18,14 +18,14 @@
     <p>In the 1980s, Hans Moravec, Rodney Brooks, Marvin Minsky, and others coined the term 'Moravec's Paradox' to explain the perplexing gap between software capabilities in reasoning versus sensorimotor skills. As the quote (not so famously) goes:</p>
 
     <blockquote>
-        <p>It is comparatively easy to make computers exhibit adult level performance on intelligence tests or playing checkers, and difficult or impossible to give them the skills of a one-year-old when it comes to perception and mobility</p>
+        <p>"It is comparatively easy to make computers exhibit adult level performance on intelligence tests or playing checkers, and difficult or impossible to give them the skills of a one-year-old when it comes to perception and mobility"</p>
         <footer>Hans Moravec</footer>
     </blockquote>
 
     <p>Indeed, computers first solved problems that humans could not quickly, such as multiplying large numbers or calculating exponentials. They did so by connecting simple, deterministic units of computation into larger, more powerful, systems. This eventually led to symbolic solvers and optimization methods that could tractably determine optimal outcomes for more complex problems like a supply chain. Moore's Law coupled with algorithmic advances then leapfrogged another level, and in 2016 AlphaZero defeated a world champion in Chess and Go. Recently, in 2023, GPT finally proved that even the domain of language can be conquered with adequate data and adequate compute. Put simply,</p>
 
     <blockquote>
-        <p>the hard problems are easy and the easy problems are hard</p>
+        <p>"The hard problems are easy and the easy problems are hard"</p>
         <footer>Stephen Pinker</footer>
     </blockquote>
 
@@ -50,44 +50,46 @@
 
     <p>Given this context, if we frame each of these tasks as an optimization problem, i.e. trying to make humans the best at executing said skill, we can multiply the real clock time needed to develop this skill by the population size undergoing the optimization by the approximate evolutionary pressure for that skill at that point in time. If we then try to back calculate the cost of having a robot learn sensorimotor perception, navigation, and manipulation, making sure to include the population size of <em>all</em> species undergoing common evolution before a diverging point in the branch, we get a number that is astronomically higher than all the other tasks.</p>
 
-    <table>
-        <tr>
-            <th>Task</th>
-            <th>Clock Time (Millions of Years)</th>
-            <th>Population Size (Billions)</th>
-            <th>Survival Value</th>
-            <th>Cost</th>
-        </tr>
-        <tr>
-            <td>Math</td>
-            <td>0.0001</td>
-            <td>8</td>
-            <td>0.000001</td>
-            <td>Low</td>
-        </tr>
-        <tr>
-            <td>Chess</td>
-            <td>0.005</td>
-            <td>20</td>
-            <td>0.0000001</td>
-            <td>Low</td>
-        </tr>
-        <tr>
-            <td>Language</td>
-            <td>0.2</td>
-            <td>30</td>
-            <td>0.1</td>
-            <td>Medium</td>
-        </tr>
-        <tr>
-            <td>Sensorimotor</td>
-            <td>300</td>
-            <td>1000</td>
-            <td>1</td>
-            <td>High</td>
-        </tr>
-    </table>
+    <div style="display: flex; justify-content: center;">
+        <table>
+            <tr>
+                <th>Task</th>
+                <th>Clock Time (Millions of Years)</th>
+                <th>Population Size (Billions)</th>
+                <th>Survival Value</th>
+                <th>Cost</th>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>0.0001</td>
+                <td>8</td>
+                <td>0.000001</td>
+                <td>Low</td>
+            </tr>
+            <tr>
+                <td>Chess</td>
+                <td>0.005</td>
+                <td>20</td>
+                <td>0.0000001</td>
+                <td>Low</td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td>0.2</td>
+                <td>30</td>
+                <td>0.1</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td>Sensorimotor</td>
+                <td>300</td>
+                <td>1000</td>
+                <td>1</td>
+                <td>High</td>
+            </tr>
+        </table>
+    </div>
 
     <p>Naturally, this has implications for the difficulty of learning a general purpose policy that is as robust as humans-- in my mind, it is possible that we birth consciousness via higher orders of reasoning and thinking before creating a humanoid robot as dexterous and nimble as humans.</p>
-</body>
+</page>
 </html>
