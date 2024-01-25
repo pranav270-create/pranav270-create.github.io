@@ -1,18 +1,21 @@
 /* CSS file */
 
 body {
-    background-color: #f0f0f0; /* Light gray background */
-    font-family: Arial, sans-serif; /* Set the font for the body */
-    color: #333; /* Dark gray text color */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-}
+    background-color: rgb(218, 222, 230);
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    padding-left: 50px;
+  }
 
 header {
     background-color: #333; /* Dark gray background */
+    font-family: Helvetica, Arial, sans-serif;
     color: #fff; /* White text color */
-    padding: 10px; /* Add some padding */
-    text-align: center; /* Center the text */
+    padding: 50px; /* Add some padding */
 }
 
 header h1 {
