@@ -122,7 +122,7 @@ p {
 width: 100px;
 height: 100px;
 background: radial-gradient(ellipse at center, rgb(255, 255, 255) 0%, black 70%);
-border-radius: 50%;
+border-radius: 10%;
 animation: spin 5s linear infinite, travel 5s linear infinite;
 }
 
