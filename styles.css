@@ -146,7 +146,8 @@ background-color: rgba(255, 255, 255, 0.0); /* semi-transparent white background
 }
 
 .wormhole-text a {
-    text-decoration: none !important;
+    text-decoration: none;
+    color: rgb(68, 64, 64); /* change this to the color you want */
 }
 
 @keyframes spin {
