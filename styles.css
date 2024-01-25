@@ -31,6 +31,11 @@ body {
     width: 50%;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+}  
+
 header {
     background-color: rgb(240, 242, 246);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
@@ -41,6 +46,7 @@ header {
     font-size:30px;
     font-weight: bold;
     word-wrap: break-word; /* Add this line */
+    margin-right: 20px;
 }
 
 .h1 {
@@ -109,30 +115,4 @@ p {
     padding-left: 90px;
     word-wrap: break-word; /* Add this line */
     width: 70%;
-}
-
-
-.ball {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
-    background: black;
-    border-radius: 50%;
-    animation: bounce 4s infinite linear;
-  }
-  
-  @keyframes bounce {
-    0% { top: 0; left: 0; }
-    25% { top: 0; left: calc(100% - 50px); }
-    50% { top: calc(100% - 50px); left: calc(100% - 50px); }
-    75% { top: calc(100% - 50px); left: 0; }
-    100% { top: 0; left: 0; }
-  }
-
-body.main_page {
-    background: radial-gradient(circle at 0 0, black 10%, transparent 10.01%) no-repeat;
-    background-size: 50px 50px;
-    animation: bounce 4s infinite linear;
 }
