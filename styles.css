@@ -1,7 +1,7 @@
 /* CSS file */
 
 body {
-    background-color: rgb(241, 242, 244);
+    background-color: rgb(240, 242, 246);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -17,7 +17,7 @@ body {
 }
 
 .main_page {
-    background-color: rgb(241, 242, 244);
+    background-color: rgb(240, 242, 246);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -32,7 +32,7 @@ body {
 }
 
 header {
-    background-color: rgb(241, 242, 244);
+    background-color: rgb(240, 242, 246);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
     color: #000000; /* White text color */
@@ -44,7 +44,7 @@ header {
 }
 
 .h1 {
-    background-color: rgb(241, 242, 244);
+    background-color: rgb(240, 242, 246);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
     color: #000000; /* White text color */
@@ -56,7 +56,7 @@ header {
 }
 
 .h2 {
-    background-color: rgb(241, 242, 244);
+    background-color: rgb(240, 242, 246);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
     color: #000000; /* White text color */
@@ -69,7 +69,7 @@ header {
 }
 
 .page {
-    background-color: rgb(241, 242, 244);
+    background-color: rgb(240, 242, 246);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -84,7 +84,7 @@ header {
 }
 
 p {
-    background-color: rgb(241, 242, 244);
+    background-color: rgb(240, 242, 246);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -109,4 +109,30 @@ p {
     padding-left: 90px;
     word-wrap: break-word; /* Add this line */
     width: 70%;
+}
+
+
+.ball {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+    animation: bounce 4s infinite linear;
+  }
+  
+  @keyframes bounce {
+    0% { top: 0; left: 0; }
+    25% { top: 0; left: calc(100% - 50px); }
+    50% { top: calc(100% - 50px); left: calc(100% - 50px); }
+    75% { top: calc(100% - 50px); left: 0; }
+    100% { top: 0; left: 0; }
+  }
+
+body.main_page {
+    background: radial-gradient(circle at 0 0, black 10%, transparent 10.01%) no-repeat;
+    background-size: 50px 50px;
+    animation: bounce 4s infinite linear;
 }
