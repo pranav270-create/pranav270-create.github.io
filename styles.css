@@ -137,10 +137,16 @@ animation: travel 5s linear infinite;
 position: absolute;
 top: 50%;
 left: 50%;
-transform: translate(-50%, -50%);
-color: white;
-text-align: center;
+transform: translate(-50%, -45%);
+color: rgb(68, 64, 64);
+text-align: left;
 width: 100%;
+font-size: 12px;
+background-color: rgba(255, 255, 255, 0.0); /* semi-transparent white background */
+}
+
+.wormhole-text a {
+    text-decoration: none !important;
 }
 
 @keyframes spin {
