@@ -1,4 +1,23 @@
 #-------------------------------
+# General Site Settings
+title: piyer
+site_title: piyer
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Stuff about Me
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "https://pranav270-create.github.io" # The base hostname & protocol for your site, e.g. http://example.com
+nav_bar: true
+
+#-------------------------------
+# Footer section
+# Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
+# Other icons can be found at https://ionicons.com/v4/
+social:
+- {icon: "ion-logo-twitter", link: "https://twitter.com/pranaviyer27"}
+- {icon: "ion-logo-github", link: "https://github.com/pranav270-create"}
+- {icon: "ion ion-logo-linkedin", link: "https://www.linkedin.com/in/pranav-iyer-18404b171/"}
+
+#-------------------------------
 # Build settings
 markdown: kramdown
 permalink: pretty
