@@ -1,7 +1,7 @@
 /* CSS file */
 
 body {
-    background-color: rgb(239, 240, 242);
+    background-color: rgb(241, 242, 244);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -16,7 +16,7 @@ body {
 }
 
 .main_page {
-    background-color: rgb(239, 240, 242);
+    background-color: rgb(241, 242, 244);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -31,7 +31,7 @@ body {
 }
 
 header {
-    background-color: rgb(239, 240, 242);
+    background-color: rgb(241, 242, 244);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
     color: #000000; /* White text color */
@@ -43,7 +43,7 @@ header {
 }
 
 .h1 {
-    background-color: rgb(239, 240, 242);
+    background-color: rgb(241, 242, 244);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
     color: #000000; /* White text color */
@@ -55,7 +55,7 @@ header {
 }
 
 .h2 {
-    background-color: rgb(239, 240, 242);
+    background-color: rgb(241, 242, 244);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
     color: #000000; /* White text color */
@@ -68,7 +68,7 @@ header {
 }
 
 .page {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 242, 244);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -83,7 +83,7 @@ header {
 }
 
 p {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 242, 244);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
