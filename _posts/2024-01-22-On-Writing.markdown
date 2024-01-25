@@ -3,7 +3,7 @@ layout: post
 title: Why Ever(i)one Makes a Website
 description: The genesis of this place
 date:   2024-01-22 15:01:35 +0300
-image:  '/images/16.jpg'
+image:  '/images/pencil.png'
 tags:   [reflection, 4th wall]
 ---
 
