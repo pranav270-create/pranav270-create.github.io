@@ -7,7 +7,7 @@ permalink: /experience/
 image:
 ---
 
-<h3 style="color: gray;"><i>Work</i></h3>
+<h3 style="color: gray;">Work</h3>
 
 ##### TinyGrid
 <p style="font-size: 13px;">
@@ -20,7 +20,7 @@ Building next-gen energy infrastructure for a scalable civilization. Stay tuned.
 </p>
 
 <p style="font-size: 13px;">
-Worked with the <a href="https://saferobotics.princeton.edu">Safe Robotics Lab</a> at Princeton and <a href="https://www.imperial.ac.uk/adaptive-intelligent-robotics/">Adaptive and Intelligent Robotics Lab</a> at Imperial College London to design robust controllers that can augment human drivers in unsafe and unseen environments. Used Hamilton Jacobi Isaacs formulation with game theoretic reinforcement learning for safety and Gaussian Processes with Quality Diversity for adaptation. Evaluated product on DoD site.
+Built robust controllers that can augment human drivers in unsafe and unseen environments. Used Hamilton Jacobi Isaacs formulation with game theoretic reinforcement learning for providing safety guarantees and Gaussian Processes with Quality Diversity for quick adaptation. Evaluated product on DoD site. Collaborated with the <a href="https://saferobotics.princeton.edu">Safe Robotics Lab</a> at Princeton and <a href="https://www.imperial.ac.uk/adaptive-intelligent-robotics/">Adaptive and Intelligent Robotics Lab</a> at Imperial College London. 
 </p>
 
 <p style="font-size: 15px;">
@@ -28,12 +28,12 @@ Worked with the <a href="https://saferobotics.princeton.edu">Safe Robotics Lab</
 </p>
 
 <p style="font-size: 13px;">
-Worked with the <a href="(https://engineering.princeton.edu/faculty/niraj-jha">Jha Lab</a> at Princeton and <a href="https://prooflab.stevens.edu"> Proof Lab</a> and <a href="https://robustfieldautonomylab.github.io">Robust Field Autonomy Lab</a> at Stevens Institute of Technology to optimize the design of drones and submarines using sample efficient active learning, graph neural networks, and fitness surrogates.
+Optimized the creation and construction of drones and submarines using sample efficient active learning, graph neural networks, and fitness surrogates. Collaborated with the <a href="(https://engineering.princeton.edu/faculty/niraj-jha">Jha Lab</a> at Princeton and <a href="https://prooflab.stevens.edu"> Proof Lab</a> and <a href="https://robustfieldautonomylab.github.io">Robust Field Autonomy Lab</a> at Stevens Institute of Technology.
 </p>
 
 ##### Cleveland Clinic AI  Research
 <p style="font-size: 13px;">
-Working with the <a href="https://my.clevelandclinic.org/departments/pathology/depts/artificial-intelligence-data-science">Artificial Intelligence and Informatics in Imaging and Healthcare Lab</a> to design models that understand patient data and can assist with real-time clinical decision makking. Using knowledge graph sampling with contrastive pre-training and conformal probability to develop SoTA models. 
+Designing models that can understand patient data and assist with real-time clinical decision makking. Using knowledge graph sampling with contrastive pre-training to combat the long tail of knowledge and conformal probability to provide statistical guarantees. Working with the <a href="https://my.clevelandclinic.org/departments/pathology/depts/artificial-intelligence-data-science">Artificial Intelligence and Informatics in Imaging and Healthcare Lab</a> to 
 </p>
 
 ##### NASA
@@ -41,7 +41,7 @@ Working with the <a href="https://my.clevelandclinic.org/departments/pathology/d
 Worked on the next-gen <a href="https://www.nasa.gov/rapid-analysis-and-manufacturing-propulsion-technology/">RAMPT project</a> to completely redesign the combustion chamber and nozzle of rockets. Optimized the adhesion between GrCop84 and Carbon Fiber pre-pregs using simulated and experimental techniques to potentially reduce total rocket mass by over 50%. Collaborated with NASA Glenn and NASA Huntsville on this multi-site project.
 </p>
 
-<h3 style="color: gray;"><i>Projects</i></h3>
+<h3 style="color: gray;">Projects</h3>
 
 ##### Design and Control of a Synthetic Bio-Organ
 <p style="font-size: 13px;">
@@ -60,10 +60,10 @@ Majority of America's rising health issues are related to lifestyle. And since c
 
 ##### Sample Efficient Defect Detection
 <p style="font-size: 13px;">
-Built a full-stack implementation of real-time defect detection in manufacturing assemblies using various machine learning techniques and a robotic arm. Used Generative Adversarial Networks to augment a sparse dataset, then used a Convolutional Neural Network to classify images as either defective or non-defective and subsequent image processing and epipolar geometry to locate the defect in the world-frame. Implemented a new technique called synaptic metaplasticity so that networks trained on sequential tasks do not exhibit “catastrophic forgetting”. This method enables faster re-training during drift and reduces costs of retraining while preserving high performance. Trained a Franka robotic arm using Proximal Policy Optimization and Trust Region Policy Optimization to grasp and remove defective objects from assembly lines. Was able to achieve 84% system effectiveness with minimal data, and in real-time.
+Built a full-stack implementation of real-time defect detection in manufacturing assemblies using various machine learning techniques and a robotic arm. Used Generative Adversarial Networks to augment a sparse dataset, then used a Convolutional Neural Network to classify images as either defective or non-defective and subsequent image processing and epipolar geometry to locate the defect in the world-frame. Implemented a new technique called synaptic metaplasticity so that networks trained on sequential tasks do not exhibit “catastrophic forgetting”.
 </p>
 
-<h3 style="color: gray;"><i>Education</i></h3>
+<h3 style="color: gray;">Education</h3>
 
 ##### Princeton University
 <p style="font-size: 13px;">
