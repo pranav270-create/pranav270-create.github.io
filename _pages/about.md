@@ -16,7 +16,7 @@ After graduation, I worked with DARPA, researching the nexus of AI and control t
 
 Today, I am focused on building the next-generation of energy infrastructure to support a scalable human civilization. In my lifetime, I am interested in creating robust synthetic intelligence.
 
-## Experience
+## Experience(../_extra_pages/experience.md)
 
 ### TinyGrid
 **New York**  
