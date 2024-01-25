@@ -1,7 +1,7 @@
 /* CSS file */
 
 body {
-    background-color: rgb(240, 242, 246);
+    background-color: rgb(250, 250, 251);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -17,7 +17,7 @@ body {
 }
 
 .main_page {
-    background-color: rgb(240, 242, 246);
+    background-color: rgb(250, 250, 251);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -37,7 +37,7 @@ body {
 }  
 
 header {
-    background-color: rgb(240, 242, 246);
+    background-color: rgb(250, 250, 251);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
     color: #000000; /* White text color */
@@ -50,7 +50,7 @@ header {
 }
 
 .h1 {
-    background-color: rgb(240, 242, 246);
+    background-color: rgb(250, 250, 251);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
     color: #000000; /* White text color */
@@ -62,7 +62,7 @@ header {
 }
 
 .h2 {
-    background-color: rgb(240, 242, 246);
+    background-color: rgb(250, 250, 251);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
     color: #000000; /* White text color */
@@ -75,7 +75,7 @@ header {
 }
 
 .page {
-    background-color: rgb(240, 242, 246);
+    background-color: rgb(250, 250, 251);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -90,7 +90,7 @@ header {
 }
 
 p {
-    background-color: rgb(240, 242, 246);
+    background-color: rgb(250, 250, 251);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -115,4 +115,24 @@ p {
     padding-left: 90px;
     word-wrap: break-word; /* Add this line */
     width: 70%;
+}
+
+
+.wormhole {
+width: 200px;
+height: 200px;
+background: radial-gradient(ellipse at center, rgb(176, 182, 237) 0%, black 70%);
+border-radius: 50%;
+animation: spin 5s linear infinite, travel 5s linear infinite;
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+@keyframes travel {
+0% { background-size: 100% 100%; }
+50% { background-size: 200% 200%; }
+100% { background-size: 100% 100%; }
 }
