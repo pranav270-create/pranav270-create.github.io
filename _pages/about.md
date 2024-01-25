@@ -2,7 +2,7 @@
 layout: page
 title: About
 site_title: About Me
-nav_bar: false
+nav_bar: true
 permalink: /about/
 image: '/images/607.jpg'
 ---
@@ -18,36 +18,5 @@ After graduation, I worked with DARPA, researching the nexus of AI and control t
 Today, I am focused on building the next-generation of energy infrastructure to support a scalable human civilization. In my lifetime, I am interested in creating robust synthetic intelligence.
 
 [Experience](../experience)
-
-### TinyGrid
-**New York**  
-Building next-gen energy infrastructure for a scalable civilization.
-
-### DARPA AI Research
-**New York**
-LINC:
-
-[SDCPS](https://www.darpa.mil/program/symbiotic-design-for-cyber-physical-systems):
-
-### Cleveland Clinic AI Research
-**Cleveland**
-
-
-## Education
-
-### Bachelor of Science in Engineering
-**Princeton University '22**  
-Major: Mechanical and Aerospace Engineering
-Minors: Computer Science, Engineering Biology, Operations Research and Financial Engineering
-
-## Projects
-
-### Autonomous Cruise Control
-
-### Meal Segmentation
-
-### Safety Drone
-
-### Sample Efficient Anomaly Detection
 
 <hr>
