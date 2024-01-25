@@ -31,3 +31,12 @@ paginate_path: "/page/:num"
 
 include:
   - index.html
+
+exclude:
+  - "_pages"
+  - "_posts"
+  - "_layouts"
+  - "_includes"
+  - "_data"
+  - "_sass"
+  - "assets"
