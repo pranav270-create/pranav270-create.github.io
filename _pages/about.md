@@ -2,6 +2,7 @@
 layout: page
 title: About
 site_title: About Me
+nav_bar: false
 permalink: /about/
 image: '/images/607.jpg'
 ---

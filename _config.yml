@@ -6,6 +6,7 @@ logo: # You can add own logo. For example '/images/logo.png'.
 description: Stuff about Me
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://pranav270-create.github.io" # The base hostname & protocol for your site, e.g. http://example.com
+nav_bar: true
 
 #-------------------------------
 # Author Settings
@@ -79,7 +80,6 @@ defaults:
 
 include:
   - _pages
-  - _extra_pages
 
 # Tags
 tag_page_dir:         tag
