@@ -9,7 +9,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     padding-top: 20px;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 1000px;
     padding-left: 50px;
     word-wrap: break-word; /* Add this line */
     width: 50%;
@@ -52,8 +52,8 @@ header {
     word-wrap: break-word; /* Add this line */
 }
 
-page {
-    background-color: rgb(239, 240, 242);
+.page {
+    background-color: rgb(255, 255, 255);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -64,7 +64,7 @@ page {
     font-weight: 500px;
     padding-left: 50px;
     word-wrap: break-word; /* Add this line */
-    width: 80%;
+    width: 90%;
 }
 
 p {
@@ -81,4 +81,11 @@ p {
     word-wrap: break-word; /* Add this line */
     width: 90%;
     align-items: center;
+}
+
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
