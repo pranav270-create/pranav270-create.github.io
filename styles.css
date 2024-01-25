@@ -10,7 +10,8 @@ body {
     padding-top: 20px;
     font-size: 16px;
     font-weight: 1000px;
-    padding-left: 50px;
+    padding-left: 0px;
+    margin: 0px;
     word-wrap: break-word; /* Add this line */
     width: 100%;
 }
