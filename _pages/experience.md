@@ -28,12 +28,12 @@ Built robust controllers that can augment human drivers in unsafe and unseen env
 </p>
 
 <p style="font-size: 13px;">
-Optimized the creation and construction of drones and submarines using sample efficient active learning, graph neural networks, and fitness surrogates. Collaborated with the <a href="(https://engineering.princeton.edu/faculty/niraj-jha">Jha Lab</a> at Princeton and <a href="https://prooflab.stevens.edu"> Proof Lab</a> and <a href="https://robustfieldautonomylab.github.io">Robust Field Autonomy Lab</a> at Stevens Institute of Technology.
+Optimized the creation and construction of drones and submarines using sample efficient active learning, graph neural networks, and fitness surrogates. Collaborated with the <a href="https://engineering.princeton.edu/faculty/niraj-jha">Jha Lab</a> at Princeton and <a href="https://prooflab.stevens.edu"> Proof Lab</a> and <a href="https://robustfieldautonomylab.github.io">Robust Field Autonomy Lab</a> at Stevens Institute of Technology.
 </p>
 
 ##### Cleveland Clinic AI  Research
 <p style="font-size: 13px;">
-Designing models that can understand patient data and assist with real-time clinical decision makking. Using knowledge graph sampling with contrastive pre-training to combat the long tail of knowledge and conformal probability to provide statistical guarantees. Working with the <a href="https://my.clevelandclinic.org/departments/pathology/depts/artificial-intelligence-data-science">Artificial Intelligence and Informatics in Imaging and Healthcare Lab</a> to 
+Designing models that can understand patient data and assist with real-time clinical decision makking. Using knowledge graph sampling with contrastive pre-training to combat the long tail distribution and conformal probability to provide statistical guarantees. Working with the <a href="https://my.clevelandclinic.org/departments/pathology/depts/artificial-intelligence-data-science">Artificial Intelligence and Informatics in Imaging and Healthcare Lab</a> at the Cleveland Clinic.
 </p>
 
 ##### NASA
