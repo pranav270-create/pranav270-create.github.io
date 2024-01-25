@@ -3,7 +3,7 @@
 title: piyer
 site_title: piyer
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Stuff about Me
+description: Website of My Life
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://pranav270-create.github.io" # The base hostname & protocol for your site, e.g. http://example.com
 nav_bar: true
