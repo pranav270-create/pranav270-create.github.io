@@ -103,3 +103,9 @@ p {
     top: 0;
     right: 0;
 }
+
+.indented-list {
+    padding-left: 30px;
+    word-wrap: break-word; /* Add this line */
+    width: 70%;
+}
