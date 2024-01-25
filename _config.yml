@@ -74,6 +74,9 @@ paginate_path: "/page/:num"
 defaults:
   - scope:
       path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+  - scope:
       path: '_extra_pages'
     values:
       permalink: /:basename:output_ext
