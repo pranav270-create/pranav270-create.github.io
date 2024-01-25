@@ -1,7 +1,7 @@
 /* CSS file */
 
 body {
-    background-color: rgb(239, 242, 248);
+    background-color: rgb(239, 240, 242);
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     line-height: 1.75;
@@ -15,11 +15,13 @@ body {
 }
 
 header {
-    background-color: rgb(239, 242, 248);
+    background-color: rgb(239, 240, 242);
     font-family: 'Courier New', Courier, monospace; /* use a monospace font */
     color: #000000; /* White text color */
-    padding: 50px; /* Add some padding */
+    padding-left: 50px;
     font-size:24px;
     font-weight: bold;
+    word-wrap: break-word; /* Add this line */
+    width: 50%;
 }
 
