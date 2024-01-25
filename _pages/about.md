@@ -3,7 +3,7 @@ layout: page
 title: About
 site_title: About Me
 permalink: /about/
-image: '/images/06.jpg'
+image: '/images/607.jpg'
 ---
 
 Hi, my name is Pranav Iyer.
@@ -18,40 +18,35 @@ Today, I am focused on building the next-generation of energy infrastructure to 
 
 ## Experience
 
-### Your Job Title
-**Company Name** - Location  
-Month, Year - Present  
-Job description goes here. This can include your responsibilities and achievements during your time in this role.
+### TinyGrid
+**New York**  
+Building next-gen energy infrastructure for a scalable civilization.
 
-### Your Previous Job Title
-**Previous Company Name** - Location  
-Month, Year - Month, Year  
-Job description goes here. This can include your responsibilities and achievements during your time in this role.
+### DARPA AI Research
+**New York**
+LINC:
+
+[SDCPS](https://www.darpa.mil/program/symbiotic-design-for-cyber-physical-systems):
+
+### Cleveland Clinic AI Research
+**Cleveland**
+
 
 ## Education
 
-### Degree, Major
-**University Name** - Location  
-Month, Year - Month, Year  
-Description or details about your course of study.
-
-## Skills
-
-- Skill 1
-- Skill 2
-- Skill 3
+### Bachelor of Science in Engineering
+**Princeton University '22**  
+Major: Mechanical and Aerospace Engineering
+Minors: Computer Science, Engineering Biology, Operations Research and Financial Engineering
 
 ## Projects
 
-### Project Name
-Description of the project. This can include what you did, the technologies used, and the outcome.
+### Autonomous Cruise Control
 
-### Another Project Name
-Description of the project. This can include what you did, the technologies used, and the outcome.
+### Meal Segmentation
 
-## Certifications
+### Safety Drone
 
-- Certification Name, Issuing Authority, Date
-- Another Certification Name, Issuing Authority, Date
+### Sample Efficient Anomaly Detection
 
 <hr>
