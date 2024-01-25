@@ -118,12 +118,29 @@ p {
 }
 
 
-.wormhole {
+.wormhole-container {
+position: relative;
 width: 150px;
 height: 150px;
+animation: spin 5s linear infinite;
+}
+
+.wormhole {
+width: 100%;
+height: 100%;
 background: radial-gradient(ellipse at center, rgb(255, 255, 255) 0%, black 70%);
 border-radius: 50%;
-animation: spin 5s linear infinite, travel 5s linear infinite;
+animation: travel 5s linear infinite;
+}
+
+.wormhole-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-align: center;
+width: 100%;
 }
 
 @keyframes spin {
