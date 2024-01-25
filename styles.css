@@ -105,7 +105,7 @@ p {
 }
 
 .indented-list {
-    padding-left: 30px;
+    padding-left: 130px;
     word-wrap: break-word; /* Add this line */
     width: 70%;
 }
