@@ -51,5 +51,6 @@ p {
     font-weight: 300px;
     padding-left: 50px;
     word-wrap: break-word; /* Add this line */
-    width: 50%;
+    width: 90%;
+    align-items: center;
 }
