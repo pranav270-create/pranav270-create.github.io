@@ -45,7 +45,7 @@ Notably, time is only half the picture. The other half is Darwin's evolutionary 
 Given this context, if we frame each of these tasks as an optimization problem, i.e. trying to make humans the best at executing said skill, we can multiply the real clock time needed to develop this skill by the population size undergoing the optimization by the approximate evolutionary pressure for that skill at that point in time. If we then try to back calculate the cost of having a robot learn sensorimotor perception, navigation, and manipulation, making sure to include the population size of *all* species undergoing common evolution before a diverging point in the branch, we get a number that is astronomically higher than all the other tasks.
 
 | Task | Clock Time (Millions of Years) | Population Size (Billions) | Survival Value | Cost |
-|------|----------------|---------------------------|----------------|------|
+|:----:|:----------------:|:---------------------------:|:----------------:|:----:|
 | Math | 0.0001 | 8 | 0.000001 | Low |
 | Chess | 0.005 | 20 | 0.0000001 | Low |
 | Language | 0.2 | 30 | 0.1 | Medium |
