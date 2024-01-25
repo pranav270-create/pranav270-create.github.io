@@ -1,8 +1,9 @@
 #-------------------------------
 # General Site Settings
 title: piyer
-logo: 'images/07.jpg' # You can add own logo. For example '/images/logo.png'.
-description:
+site_title: piyer
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Stuff about Me
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://pranav270-create.github.io" # The base hostname & protocol for your site, e.g. http://example.com
 
